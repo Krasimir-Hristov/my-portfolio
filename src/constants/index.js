@@ -14,18 +14,18 @@ import {
     figma,
     docker,
     threejs,
-    AngularNovember2022,
-    DiplomaForJavascriptWebDeveloper,
-    FundamentalsMathematicsFebruary2023,
-    HTMLCSSJanuary2023,
-    JavascriptAdvancedMay2022,
-    JavascriptApplicationsJune2022,
-    JavascriptBackEndSeptember2022,
-    ProgrammingBasicsSeptember2021,
-    ProgrammingFundamentalsJavascriptJanuary2022,
-    QABasicsMarch2023HonorableMention,
-    ReactJSFebruary2023,
-    SoftwareEngineeringAndDevOpsJune2023,
+    angularNovember2022,
+    diplomaForJavascriptWebDeveloper,
+    fundamentalsMathematicsFebruary2023,
+    htmlCssJanuary2023,
+    javascriptAdvancedMay2022,
+    javascriptApplicationsJune2022,
+    javascriptBackEndSeptember2022,
+    programmingBasicsSeptember2021,
+    programmingFundamentalsJavascriptJanuary2022,
+    qABasicsMarch2023HonorableMention,
+    reactJSFebruary2023,
+    softwareEngineeringAndDevOpsJune2023,
 } from '../assets';
 
 export const navLinks = [
@@ -34,7 +34,7 @@ export const navLinks = [
         title: 'About',
     },
     {
-        id: 'work',
+        id: 'education',
         title: 'Education',
     },
     {
@@ -118,7 +118,7 @@ const experiences = [
     {
         title: 'Javascript Programming Basics',
         company_name: 'Software University',
-        icon: ProgrammingBasicsSeptember2021,
+        icon: programmingBasicsSeptember2021,
         iconBg: '#383E56',
         date: 'September 2021 - December 2021',
         points: [
@@ -133,7 +133,7 @@ const experiences = [
     {
         title: 'Programming Fundamentals With Javascript',
         company_name: 'Software University',
-        icon: ProgrammingFundamentalsJavascriptJanuary2022,
+        icon: programmingFundamentalsJavascriptJanuary2022,
         iconBg: '#383E56',
         date: 'Januar 2022 - April 2022',
         points: [
@@ -159,7 +159,7 @@ const experiences = [
     {
         title: 'Javascript Advanced',
         company_name: 'Software University',
-        icon: JavascriptAdvancedMay2022,
+        icon: javascriptAdvancedMay2022,
         iconBg: '#383E56',
         date: 'May 2022 - June 2022',
         points: [
@@ -177,7 +177,7 @@ const experiences = [
     {
         title: 'Javascript Applications',
         company_name: 'Software University',
-        icon: JavascriptApplicationsJune2022,
+        icon: javascriptApplicationsJune2022,
         iconBg: '#383E56',
         date: 'June 2022 - July 2022',
         points: [
@@ -194,7 +194,7 @@ const experiences = [
     {
         title: 'Javascript Back-End',
         company_name: 'Software University',
-        icon: JavascriptBackEndSeptember2022,
+        icon: javascriptBackEndSeptember2022,
         iconBg: '#383E56',
         date: 'September 2022 - November 2022',
         points: [
@@ -209,7 +209,7 @@ const experiences = [
     {
         title: 'Angular',
         company_name: 'Software University',
-        icon: AngularNovember2022,
+        icon: angularNovember2022,
         iconBg: '#383E56',
         date: 'September 2022 - December 2022',
         points: [
@@ -225,7 +225,7 @@ const experiences = [
     {
         title: 'HTML & CSS',
         company_name: 'Software University',
-        icon: HTMLCSSJanuary2023,
+        icon: htmlCssJanuary2023,
         iconBg: '#383E56',
         date: 'January 2023 - March 2023',
         points: [
@@ -241,7 +241,7 @@ const experiences = [
     {
         title: 'React',
         company_name: 'Software University',
-        icon: ReactJSFebruary2023,
+        icon: reactJSFebruary2023,
         iconBg: '#383E56',
         date: 'February 2023 - April 2023',
         points: [
@@ -257,7 +257,7 @@ const experiences = [
     {
         title: 'Fundamentals in Mathematics',
         company_name: 'Software University',
-        icon: FundamentalsMathematicsFebruary2023,
+        icon: fundamentalsMathematicsFebruary2023,
         iconBg: '#383E56',
         date: 'February 2023 - April 2023',
         points: [
@@ -271,7 +271,7 @@ const experiences = [
     {
         title: 'QA Basics',
         company_name: 'Software University',
-        icon: QABasicsMarch2023HonorableMention,
+        icon: qABasicsMarch2023HonorableMention,
         iconBg: '#383E56',
         date: 'March 2023 - May 2023',
         points: [
@@ -284,7 +284,7 @@ const experiences = [
     {
         title: 'Software Engineering and DevOps',
         company_name: 'Software University',
-        icon: SoftwareEngineeringAndDevOpsJune2023,
+        icon: softwareEngineeringAndDevOpsJune2023,
         iconBg: '#383E56',
         date: 'June 2023 - August 2023',
         points: [
@@ -300,7 +300,7 @@ const experiences = [
     {
         title: 'Javascript Web Developer',
         company_name: 'Software University',
-        icon: DiplomaForJavascriptWebDeveloper,
+        icon: diplomaForJavascriptWebDeveloper,
         iconBg: '#383E56',
         date: '28-August  - 2023',
         points: [
@@ -331,7 +331,7 @@ const projects = [
                 color: 'pink-text-gradient',
             },
         ],
-        image: DiplomaForJavascriptWebDeveloper,
+        image: diplomaForJavascriptWebDeveloper,
         source_code_link: 'https://github.com/',
     },
 ];
