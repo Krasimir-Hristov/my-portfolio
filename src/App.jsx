@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import {
   About,
   Contact,
-  Experience,
+  Educations,
   Feedbacks,
   Hero,
   Navbar,
@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import Certificates from "./components/Certificates";
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
+        <Educations />
+        <Certificates />
         <Tech />
         <Works />
         <Feedbacks />

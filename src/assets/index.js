@@ -37,6 +37,7 @@ import programmingFundamentalsJavascriptJanuary2022 from './company/ProgrammingF
 import qABasicsMarch2023HonorableMention from './company/QABasicsMarch2023HonorableMention.png';
 import reactJSFebruary2023 from './company/ReactJSFebruary2023.png';
 import softwareEngineeringAndDevOpsJune2023 from './company/SoftwareEngineeringAndDevOpsJune2023.png';
+import softwareUniversity from './company/SoftwareUniversity.png'
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -75,5 +76,6 @@ export {
   programmingFundamentalsJavascriptJanuary2022,
   qABasicsMarch2023HonorableMention,
   reactJSFebruary2023,
-  softwareEngineeringAndDevOpsJune2023
+  softwareEngineeringAndDevOpsJune2023,
+  softwareUniversity
 };
