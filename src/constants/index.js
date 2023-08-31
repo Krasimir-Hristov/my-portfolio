@@ -27,9 +27,9 @@ import {
     reactJSFebruary2023,
     softwareEngineeringAndDevOpsJune2023,
     softwareUniversity,
-    carrent,
-    tripguide,
-    jobit
+    motorWorld,
+    videoProject,
+    underConstruction
 
 } from '../assets';
 
@@ -383,54 +383,54 @@ const educations = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Motor World",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Motor World is a comprehensive application designed to revolutionize the way people buy, sell and rent cars. It's a one-stop platform for all your automotive needs, providing a seamless experience for both individuals and dealerships.",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Firebase",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/Krasimir-Hristov",
+        image: motorWorld,
+        source_code_link: "https://github.com/Krasimir-Hristov/Motor-Vehicles-World",
     },
     {
-        name: "Job IT",
+        name: "Video Share",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Video Share is a user-friendly web application designed to facilitate the sharing of short videos among friends and social circles. It offers a seamless platform for users to upload, organize, and share their favorite moments captured in video format.",
         tags: [
             {
-                name: "react",
+                name: "Angular",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "FireBase",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/Krasimir-Hristov",
+        image: videoProject,
+        source_code_link: "https://github.com/Krasimir-Hristov/My-Video-Project-With-Angular",
     },
     {
-        name: "Trip Guide",
+        name: "Comming Soon",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "I'm currently in the process of developing an innovative web application that will revolutionize the way hotel room reservations are made. This project, aims to provide a seamless and user-friendly experience for both guests seeking accommodations and hotel administrators managing bookings.",
         tags: [
             {
-                name: "nextjs",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
@@ -438,11 +438,11 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: underConstruction,
         source_code_link: "https://github.com/Krasimir-Hristov",
     },
 ];

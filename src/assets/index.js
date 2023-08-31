@@ -35,9 +35,9 @@ import reactJSFebruary2023 from './company/ReactJSFebruary2023.png';
 import softwareEngineeringAndDevOpsJune2023 from './company/SoftwareEngineeringAndDevOpsJune2023.png';
 import softwareUniversity from './company/SoftwareUniversity.png'
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import motorWorld from './motor-world.png';
+import videoProject from './Video-Project.png';
+import underConstruction from './underConstruction.jpg';
 
 export {
   logo,
@@ -61,9 +61,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  tripguide,
-  jobit,
+  underConstruction,
+  motorWorld,
+  videoProject,
   angularNovember2022,
   diplomaForJavascriptWebDeveloper,
   fundamentalsMathematicsFebruary2023,
