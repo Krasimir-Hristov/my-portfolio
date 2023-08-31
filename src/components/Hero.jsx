@@ -22,6 +22,14 @@ const Hero = () => {
             I'm <br className="sm:block hidden" /> Full-Stack Javascript
             Developer
           </p>
+          <h2 className={`${styles.heroSubText} text-[darkred]`}>
+            Important!
+            <br />
+            <span className={styles.heroSubText}>
+              Every icon on this website-portfolio is 3D modeled. Give them a
+              try!
+            </span>
+          </h2>
         </div>
       </div>
 

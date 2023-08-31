@@ -26,7 +26,11 @@ import {
     qABasicsMarch2023HonorableMention,
     reactJSFebruary2023,
     softwareEngineeringAndDevOpsJune2023,
-    softwareUniversity
+    softwareUniversity,
+    carrent,
+    tripguide,
+    jobit
+
 } from '../assets';
 
 const certificates = [
@@ -89,6 +93,18 @@ export const navLinks = [
     {
         id: 'education',
         title: 'Education',
+    },
+    {
+        id: 'certificates',
+        title: 'Certificates',
+    },
+    {
+        id: 'tech',
+        title: 'Technologies',
+    },
+    {
+        id: 'projects',
+        title: 'My Projects',
     },
     {
         id: 'contact',
@@ -366,27 +382,68 @@ const educations = [
 
 
 const projects = [
-
     {
-        name: 'Trip Guide',
+        name: "Car Rent",
         description:
-            'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
             {
-                name: 'nextjs',
-                color: 'blue-text-gradient',
+                name: "react",
+                color: "blue-text-gradient",
             },
             {
-                name: 'supabase',
-                color: 'green-text-gradient',
+                name: "mongodb",
+                color: "green-text-gradient",
             },
             {
-                name: 'css',
-                color: 'pink-text-gradient',
+                name: "tailwind",
+                color: "pink-text-gradient",
             },
         ],
-        image: diplomaForJavascriptWebDeveloper,
-        source_code_link: 'https://github.com/',
+        image: carrent,
+        source_code_link: "https://github.com/Krasimir-Hristov",
+    },
+    {
+        name: "Job IT",
+        description:
+            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "green-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: jobit,
+        source_code_link: "https://github.com/Krasimir-Hristov",
+    },
+    {
+        name: "Trip Guide",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/Krasimir-Hristov",
     },
 ];
 
