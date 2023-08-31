@@ -45,8 +45,8 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leadeing-[30px]"
       >
         I'm a skilled software developer with experiance in Typescript and
-        Javascript, and expertise in frameworks like React, Node.js and
-        Three.js. I'm quick learner and collaborate closely with clients to
+        Javascript, and expertise in frameworks like React, Node.js, Express.js
+        and more. I'm quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. let's work together to bring your ideas to life!
       </motion.p>
