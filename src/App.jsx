@@ -13,6 +13,16 @@ import {
 import Certificates from "./components/Certificates";
 
 const App = () => {
+  const API = import.meta.env.VITE_API;
+  const SERVER = import.meta.env.VITE_SERVER;
+  const TEMPLATE = import.meta.env.VITE_TEMPLATE;
+
+  const env = {
+    API,
+    SERVER,
+    TEMPLATE,
+  };
+
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
@@ -26,7 +36,7 @@ const App = () => {
         <Tech />
         <Projects />
         <div className="relative z-0">
-          <Contact />
+          <Contact env={env} />
           <StarsCanvas />
         </div>
       </div>

@@ -7,11 +7,7 @@ import { EarthCanvas } from "./canvas";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { slideIn } from "../utils/motion";
 
-//A995jRowqQaGHRgpQ
-//template_x7zp6ra
-//service_zjasm6m
-
-const Contact = () => {
+const Contact = ({ API, SERVER, TEMPLATE }) => {
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -34,8 +30,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_zjasm6m",
-        "template_x7zp6ra",
+        SERVER,
+        TEMPLATE,
         {
           from_name: form.name,
           to_name: "Krasimir",
@@ -43,7 +39,7 @@ const Contact = () => {
           to_email: "krasimir.xristov@gmail.com",
           message: form.message,
         },
-        "A995jRowqQaGHRgpQ"
+        API
       )
       .then(() => {
         setLoading(false);
