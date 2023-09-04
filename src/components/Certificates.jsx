@@ -40,13 +40,11 @@ const CertificateCard = ({ index, title, icon }) => {
 const Certificates = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <h2
-          className={`${styles.sectionHeadText} justify-center text-center mt-[20px]`}
-        >
-          Certificates.
-        </h2>
-      </motion.div>
+      <h2
+        className={`${styles.sectionHeadText} justify-center text-center mt-[20px]`}
+      >
+        Certificates.
+      </h2>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {certificates.map((certificate, index) => (
