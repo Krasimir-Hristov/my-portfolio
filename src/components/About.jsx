@@ -44,11 +44,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leadeing-[30px]"
       >
-        I'm a skilled software developer with experiance in Typescript and
-        Javascript, and expertise in frameworks like React, Node.js, Express.js
-        and more. I'm quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        As a passionate and skilled Full Stack Developer, I bring a dynamic blend of expertise in JavaScript, TypeScript, Node.js, Express.js, React, and more to the table. With a strong foundation in web development, including HTML and CSS, I've honed my abilities to create seamless, user-friendly applications.
+        <br />
+
+        My commitment to delivering top-notch solutions is unwavering, and I take pride in tackling complex challenges head-on. I am confident in my ability to leverage cutting-edge technologies and APIs to develop robust web applications.<br />
+
+        While my current skills are robust, I am also a quick learner who thrives on staying at the forefront of industry trends. I'm excited to contribute my expertise to your team while continuously expanding my knowledge and skills to excel in the ever-evolving world of technology.<br />
+
+        Let's collaborate to build innovative solutions and drive success together.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -11,7 +11,6 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     threejs,
     angularNovember2022,
@@ -27,8 +26,9 @@ import {
     reactJSFebruary2023,
     softwareEngineeringAndDevOpsJune2023,
     softwareUniversity,
-    motorWorld,
-    videoProject,
+    summaraizer,
+    nikeclone,
+    fitflex,
     underConstruction
 
 } from '../assets';
@@ -173,10 +173,6 @@ const technologies = [
     {
         name: 'git',
         icon: git,
-    },
-    {
-        name: 'figma',
-        icon: figma,
     },
     {
         name: 'docker',
@@ -383,37 +379,34 @@ const educations = [
 
 const projects = [
     {
-        name: "Motor World",
+        name: "Nike Clone",
         description:
-            "Motor World is a comprehensive application designed to revolutionize the way people buy, sell and rent cars. It's a one-stop platform for all your automotive needs, providing a seamless experience for both individuals and dealerships.",
+            "Welcome to our Nike clone project landing page. Experience the essence of athletic style and innovation. Explore now!",
         tags: [
             {
                 name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "Firebase",
-                color: "green-text-gradient",
-            },
-            {
                 name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: motorWorld,
-        source_code_link: "https://github.com/Krasimir-Hristov/Motor-Vehicles-World",
+        image: nikeclone,
+        source_code_link: "https://github.com/Krasimir-Hristov/Nike-Landing-Page",
+        web_link: "https://nike-landing-page-psi-opal.vercel.app/",
     },
     {
-        name: "Video Share",
+        name: "SummarAIzer",
         description:
-            "Video Share is a user-friendly web application designed to facilitate the sharing of short videos among friends and social circles. It offers a seamless platform for users to upload, organize, and share their favorite moments captured in video format.",
+            "Unlock the power of AI summarization with our tool. Simply provide a link to any article, and watch as we condense it into a concise summary for your convenience. Get the essence of the content without the time-consuming reading. Try it now!",
         tags: [
             {
-                name: "Angular",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "FireBase",
+                name: "Rapid API",
                 color: "green-text-gradient",
             },
             {
@@ -421,29 +414,45 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: videoProject,
-        source_code_link: "https://github.com/Krasimir-Hristov/My-Video-Project-With-Angular",
+        image: summaraizer,
+        source_code_link: "https://github.com/Krasimir-Hristov/SummarAIze",
+        web_link: "https://summar-a-ize.vercel.app/",
+    },
+    {
+        name: "Fit Flex",
+        description:
+            "Revolutionize your fitness journey with my app. Access a treasure trove of video materials for workouts, nutrition tips, and expert guidance. Elevate your fitness game at your own pace, anytime, anywhere.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Rapid API",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Material UI",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: fitflex,
+        source_code_link: "https://github.com/Krasimir-Hristov/FitFlex",
+        web_link: "https://fit-flex-krasimir-hristov.vercel.app/",
     },
     {
         name: "Comming Soon",
         description:
-            "I'm currently in the process of developing an innovative web application that will revolutionize the way hotel room reservations are made. This project, aims to provide a seamless and user-friendly experience for both guests seeking accommodations and hotel administrators managing bookings.",
+            "Get ready for my game-changing new project, powered by NextJS, that's even better than my last projects. Stay tuned for innovation!",
         tags: [
             {
-                name: "React",
+                name: "Next.js",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
             },
         ],
         image: underConstruction,
         source_code_link: "https://github.com/Krasimir-Hristov",
+        web_link: "https://github.com/Krasimir-Hristov",
     },
 ];
 

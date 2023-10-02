@@ -9,7 +9,6 @@ import close from './close.svg';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
@@ -35,8 +34,9 @@ import reactJSFebruary2023 from './company/ReactJSFebruary2023.png';
 import softwareEngineeringAndDevOpsJune2023 from './company/SoftwareEngineeringAndDevOpsJune2023.png';
 import softwareUniversity from './company/SoftwareUniversity.png'
 
-import motorWorld from './motor-world.png';
-import videoProject from './Video-Project.png';
+import fitflex from './fitflex.png';
+import nikeclone from './NikeCLone.png';
+import summaraizer from './summaraize.png';
 import underConstruction from './underConstruction.jpg';
 
 export {
@@ -50,7 +50,6 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
@@ -62,8 +61,9 @@ export {
   typescript,
   threejs,
   underConstruction,
-  motorWorld,
-  videoProject,
+  fitflex,
+  summaraizer,
+  nikeclone,
   angularNovember2022,
   diplomaForJavascriptWebDeveloper,
   fundamentalsMathematicsFebruary2023,
