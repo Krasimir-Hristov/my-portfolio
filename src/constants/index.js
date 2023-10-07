@@ -466,7 +466,7 @@ const projects = [
     {
         name: 'Comming Soon',
         description:
-            'Get ready for my game-changing new project, powered by NextJS, that\'s even better than my last projects. Stay tuned for innovation!',
+            'Get ready for my game-changing new MERN project, powered by React-NextJS, that\'s even better than my last projects. Stay tuned for innovation!',
         tags: [
             {
                 name: 'Next.js',
