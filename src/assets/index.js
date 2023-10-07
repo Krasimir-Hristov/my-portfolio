@@ -37,6 +37,7 @@ import softwareUniversity from './company/SoftwareUniversity.png'
 import fitflex from './fitflex.png';
 import nikeclone from './NikeCLone.png';
 import summaraizer from './summaraize.png';
+import pricewatchpro from './pricewatchpro.png';
 import underConstruction from './underConstruction.jpg';
 
 export {
@@ -64,6 +65,7 @@ export {
   fitflex,
   summaraizer,
   nikeclone,
+  pricewatchpro,
   angularNovember2022,
   diplomaForJavascriptWebDeveloper,
   fundamentalsMathematicsFebruary2023,
