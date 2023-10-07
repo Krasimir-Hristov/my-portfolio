@@ -380,102 +380,102 @@ const educations = [
 
 const projects = [
     {
-        name: "Nike Clone",
+        name: 'Nike Clone',
         description:
-            "Welcome to our Nike clone project landing page. Experience the essence of athletic style and innovation. Explore now!",
+            'Welcome to our Nike clone project landing page. Experience the essence of athletic style and innovation. Explore now!',
         tags: [
             {
-                name: "React",
-                color: "blue-text-gradient",
+                name: 'React',
+                color: 'blue-text-gradient',
             },
             {
-                name: "Tailwind",
-                color: "pink-text-gradient",
+                name: 'Tailwind',
+                color: 'pink-text-gradient',
             },
         ],
         image: nikeclone,
-        source_code_link: "https://github.com/Krasimir-Hristov/Nike-Landing-Page",
-        web_link: "https://nike-landing-page-psi-opal.vercel.app/",
+        source_code_link: 'https://github.com/Krasimir-Hristov/Nike-Landing-Page',
+        web_link: 'https://nike-landing-page-psi-opal.vercel.app/',
     },
     {
-        name: "SummarAIzer",
+        name: 'SummarAIzer',
         description:
-            "Unlock the power of AI summarization with our tool. Simply provide a link to any article, and watch as we condense it into a concise summary for your convenience. Get the essence of the content without the time-consuming reading. Try it now!",
+            'Unlock the power of AI summarization with our tool. Simply provide a link to any article, and watch as we condense it into a concise summary for your convenience. Get the essence of the content without the time-consuming reading. Try it now!',
         tags: [
             {
-                name: "React",
-                color: "blue-text-gradient",
+                name: 'React',
+                color: 'blue-text-gradient',
             },
             {
-                name: "Rapid API",
-                color: "green-text-gradient",
+                name: 'Rapid API',
+                color: 'green-text-gradient',
             },
             {
-                name: "TailwindCSS",
-                color: "pink-text-gradient",
+                name: 'TailwindCSS',
+                color: 'pink-text-gradient',
             },
         ],
         image: summaraizer,
-        source_code_link: "https://github.com/Krasimir-Hristov/SummarAIze",
-        web_link: "https://summar-a-ize.vercel.app/",
+        source_code_link: 'https://github.com/Krasimir-Hristov/SummarAIze',
+        web_link: 'https://summar-a-ize.vercel.app/',
     },
     {
-        name: "Fit Flex",
+        name: 'Fit Flex',
         description:
-            "Revolutionize your fitness journey with my app. Access a treasure trove of video materials for workouts, nutrition tips, and expert guidance. Elevate your fitness game at your own pace, anytime, anywhere.",
+            'Revolutionize your fitness journey with my app. Access a treasure trove of video materials for workouts, nutrition tips, and expert guidance. Elevate your fitness game at your own pace, anytime, anywhere.',
         tags: [
             {
-                name: "React",
-                color: "blue-text-gradient",
+                name: 'React',
+                color: 'blue-text-gradient',
             },
             {
-                name: "Rapid API",
-                color: "green-text-gradient",
+                name: 'Rapid API',
+                color: 'green-text-gradient',
             },
             {
-                name: "Material UI",
-                color: "pink-text-gradient",
+                name: 'Material UI',
+                color: 'pink-text-gradient',
             },
         ],
         image: fitflex,
-        source_code_link: "https://github.com/Krasimir-Hristov/FitFlex",
-        web_link: "https://fit-flex-krasimir-hristov.vercel.app/",
+        source_code_link: 'https://github.com/Krasimir-Hristov/FitFlex',
+        web_link: 'https://fit-flex-krasimir-hristov.vercel.app/',
     },
     {
-        name: "PriceWatch Pro",
+        name: 'PriceWatch Pro',
         description:
-            "The Amazon Price Scraper is a web-based project designed to provide users with real-time pricing information for products listed on Amazon. By simply inputting the URL of the desired Amazon product page, this handy tool fetches and displays the current price, along with any available discounts or promotions.",
+            'The Amazon Price Scraper is a web-based project designed to provide users with real-time pricing information for products listed on Amazon. By simply inputting the URL of the desired Amazon product page, this handy tool fetches and displays the current price, along with any available discounts or promotions.',
         tags: [
             {
-                name: "Next.JS",
-                color: "blue-text-gradient",
+                name: 'Next.JS',
+                color: 'blue-text-gradient',
             },
             {
-                name: "MongoDB",
-                color: "green-text-gradient",
+                name: 'MongoDB',
+                color: 'green-text-gradient',
             },
             {
-                name: "TailwindCSS",
-                color: "pink-text-gradient",
+                name: 'TailwindCSS',
+                color: 'pink-text-gradient',
             },
         ],
         image: pricewatchpro,
-        source_code_link: "https://github.com/Krasimir-Hristov/PriceWatchPro",
-        web_link: "https://price-watch-pro.vercel.app/",
+        source_code_link: 'https://github.com/Krasimir-Hristov/PriceWatchPro',
+        web_link: 'https://price-watch-pro.vercel.app/',
     },
     {
-        name: "Comming Soon",
+        name: 'Comming Soon',
         description:
-            "Get ready for my game-changing new project, powered by NextJS, that's even better than my last projects. Stay tuned for innovation!",
+            'Get ready for my game-changing new project, powered by NextJS, that\'s even better than my last projects. Stay tuned for innovation!',
         tags: [
             {
-                name: "Next.js",
-                color: "blue-text-gradient",
+                name: 'Next.js',
+                color: 'blue-text-gradient',
             },
         ],
         image: underConstruction,
-        source_code_link: "https://github.com/Krasimir-Hristov",
-        web_link: "https://github.com/Krasimir-Hristov",
+        source_code_link: 'https://github.com/Krasimir-Hristov',
+        web_link: 'https://github.com/Krasimir-Hristov',
     },
 ];
 

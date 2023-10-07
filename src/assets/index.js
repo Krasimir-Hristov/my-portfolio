@@ -32,7 +32,7 @@ import programmingFundamentalsJavascriptJanuary2022 from './company/ProgrammingF
 import qABasicsMarch2023HonorableMention from './company/QABasicsMarch2023HonorableMention.png';
 import reactJSFebruary2023 from './company/ReactJSFebruary2023.png';
 import softwareEngineeringAndDevOpsJune2023 from './company/SoftwareEngineeringAndDevOpsJune2023.png';
-import softwareUniversity from './company/SoftwareUniversity.png'
+import softwareUniversity from './company/SoftwareUniversity.png';
 
 import fitflex from './fitflex.png';
 import nikeclone from './NikeCLone.png';
