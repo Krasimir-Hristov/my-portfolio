@@ -441,42 +441,42 @@ const projects = [
         source_code_link: 'https://github.com/Krasimir-Hristov/FitFlex',
         web_link: 'https://fit-flex-krasimir-hristov.vercel.app/',
     },
-    {
-        name: 'PriceWatch Pro',
-        description:
-            'The Amazon Price Scraper is a web-based project designed to provide users with real-time pricing information for products listed on Amazon. By simply inputting the URL of the desired Amazon product page, this handy tool fetches and displays the current price, along with any available discounts or promotions.',
-        tags: [
-            {
-                name: 'Next.JS',
-                color: 'blue-text-gradient',
-            },
-            {
-                name: 'MongoDB',
-                color: 'green-text-gradient',
-            },
-            {
-                name: 'TailwindCSS',
-                color: 'pink-text-gradient',
-            },
-        ],
-        image: pricewatchpro,
-        source_code_link: 'https://github.com/Krasimir-Hristov/PriceWatchPro',
-        web_link: 'https://price-watch-pro.vercel.app/',
-    },
-    {
-        name: 'Comming Soon',
-        description:
-            'Get ready for my game-changing new MERN project, powered by React-NextJS, that\'s even better than my last projects. Stay tuned for innovation!',
-        tags: [
-            {
-                name: 'Next.js',
-                color: 'blue-text-gradient',
-            },
-        ],
-        image: underConstruction,
-        source_code_link: 'https://github.com/Krasimir-Hristov',
-        web_link: 'https://github.com/Krasimir-Hristov',
-    },
+    // {
+    //     name: 'PriceWatch Pro',
+    //     description:
+    //         'The Amazon Price Scraper is a web-based project designed to provide users with real-time pricing information for products listed on Amazon. By simply inputting the URL of the desired Amazon product page, this handy tool fetches and displays the current price, along with any available discounts or promotions.',
+    //     tags: [
+    //         {
+    //             name: 'Next.JS',
+    //             color: 'blue-text-gradient',
+    //         },
+    //         {
+    //             name: 'MongoDB',
+    //             color: 'green-text-gradient',
+    //         },
+    //         {
+    //             name: 'TailwindCSS',
+    //             color: 'pink-text-gradient',
+    //         },
+    //     ],
+    //     image: pricewatchpro,
+    //     source_code_link: 'https://github.com/Krasimir-Hristov/PriceWatchPro',
+    //     web_link: 'https://price-watch-pro.vercel.app/',
+    // },
+    // {
+    //     name: 'Comming Soon',
+    //     description:
+    //         'Get ready for my game-changing new MERN project, powered by React-NextJS, that\'s even better than my last projects. Stay tuned for innovation!',
+    //     tags: [
+    //         {
+    //             name: 'Next.js',
+    //             color: 'blue-text-gradient',
+    //         },
+    //     ],
+    //     image: underConstruction,
+    //     source_code_link: 'https://github.com/Krasimir-Hristov',
+    //     web_link: 'https://github.com/Krasimir-Hristov',
+    // },
 ];
 
 export { services, technologies, educations, projects, certificates };
