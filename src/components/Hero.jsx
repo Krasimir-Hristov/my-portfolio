@@ -34,9 +34,9 @@ const Hero = () => {
       </div>
 
 
-      <div >
+      {/* <div className="lg:block hidden" >
         <ComputersCanvas />
-      </div>
+      </div> */}
     </section>
   );
 };
