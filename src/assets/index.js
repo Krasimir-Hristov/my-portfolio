@@ -39,6 +39,7 @@ import nikeclone from './NikeCLone.png';
 import summaraizer from './summaraize.png';
 import pricewatchpro from './pricewatchpro.png';
 import underConstruction from './underConstruction.jpg';
+import elenisbekeryapp from './elenisbakeryapp.png';
 
 export {
   logo,
@@ -78,5 +79,6 @@ export {
   qABasicsMarch2023HonorableMention,
   reactJSFebruary2023,
   softwareEngineeringAndDevOpsJune2023,
-  softwareUniversity
+  softwareUniversity,
+  elenisbekeryapp,
 };

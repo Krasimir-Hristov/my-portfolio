@@ -5,6 +5,8 @@ import About from './About';
 import Tech from './Tech';
 import Educations from './Educations';
 import Projects from './Projects';
+import ProfessionalProjects from './ProfessionalProjects';
+import Certificates from './Certificates';
 import Contact from './Contact';
 
 export {
@@ -14,6 +16,8 @@ export {
   Tech,
   Educations,
   Projects,
+  ProfessionalProjects,
+  Certificates,
   Contact,
   EarthCanvas,
   BallCanvas,

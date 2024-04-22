@@ -9,8 +9,10 @@ import {
   Tech,
   Projects,
   StarsCanvas,
+  ProfessionalProjects,
+  Certificates,
+
 } from "./components";
-import Certificates from "./components/Certificates";
 
 const App = () => {
   const API = import.meta.env.VITE_API;
@@ -35,6 +37,7 @@ const App = () => {
         <Certificates />
         <Tech />
         <Projects />
+        <ProfessionalProjects />
         <div className="relative z-0">
           <Contact env={env} />
           <StarsCanvas />

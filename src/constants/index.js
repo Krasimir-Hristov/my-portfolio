@@ -28,9 +28,8 @@ import {
     softwareUniversity,
     summaraizer,
     nikeclone,
-    pricewatchpro,
     fitflex,
-    underConstruction
+    elenisbekeryapp,
 
 } from '../assets';
 
@@ -106,6 +105,10 @@ export const navLinks = [
     {
         id: 'projects',
         title: 'My Projects',
+    },
+    {
+        id: 'professionalprojects',
+        title: 'Professional Projects',
     },
     {
         id: 'contact',
@@ -479,4 +482,29 @@ const projects = [
     // },
 ];
 
-export { services, technologies, educations, projects, certificates };
+const professionalProjects = [
+    {
+        name: `Eleni's Bakery`,
+        description:
+            'My professional project - bakery web application: Technologies used - React, NodeJS, ExpressJS, MongoDB. Welcome to the exciting world of flavor and innovation!',
+        tags: [
+            {
+                name: 'React',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'TailwindCSS',
+                color: 'green-text-gradient',
+            },
+            {
+                name: 'NodeJS',
+                color: 'pink-text-gradient',
+            },
+        ],
+        image: elenisbekeryapp,
+        source_code_link: 'https://github.com/Krasimir-Hristov/elenis-bekery',
+        web_link: 'https://elenis-bekery.onrender.com/',
+    },
+];
+
+export { services, technologies, educations, projects, certificates, professionalProjects };
