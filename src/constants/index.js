@@ -30,6 +30,7 @@ import {
     nikeclone,
     fitflex,
     elenisbekeryapp,
+    meetmeup,
 
 } from '../assets';
 
@@ -444,28 +445,36 @@ const projects = [
         source_code_link: 'https://github.com/Krasimir-Hristov/FitFlex',
         web_link: 'https://fit-flex-krasimir-hristov.vercel.app/',
     },
-    // {
-    //     name: 'PriceWatch Pro',
-    //     description:
-    //         'The Amazon Price Scraper is a web-based project designed to provide users with real-time pricing information for products listed on Amazon. By simply inputting the URL of the desired Amazon product page, this handy tool fetches and displays the current price, along with any available discounts or promotions.',
-    //     tags: [
-    //         {
-    //             name: 'Next.JS',
-    //             color: 'blue-text-gradient',
-    //         },
-    //         {
-    //             name: 'MongoDB',
-    //             color: 'green-text-gradient',
-    //         },
-    //         {
-    //             name: 'TailwindCSS',
-    //             color: 'pink-text-gradient',
-    //         },
-    //     ],
-    //     image: pricewatchpro,
-    //     source_code_link: 'https://github.com/Krasimir-Hristov/PriceWatchPro',
-    //     web_link: 'https://price-watch-pro.vercel.app/',
-    // },
+    {
+        name: 'Meet Me Up',
+        description:
+            '"Meet Up Now" is a web application for video conferencing that offers:New Meeting: Creating a meeting.Schedule Meeting: Planning meetings.View Recordings: Accessing recordings.Join Meeting: Through invitation.Intuitive interface and easy navigation through a sidebar menu.',
+        tags: [
+            {
+                name: 'Next.JS',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'Clerk Auth',
+                color: 'green-text-gradient',
+            },
+            {
+                name: 'TailwindCSS',
+                color: 'pink-text-gradient',
+            },
+            {
+                name: 'Shadcn/ui',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'Stream',
+                color: 'green-text-gradient',
+            },
+        ],
+        image: meetmeup,
+        source_code_link: 'https://github.com/Krasimir-Hristov/meet_up_now',
+        web_link: 'https://meet-up-4wzwzuhsz-krasimirhristovs-projects.vercel.app/sign-in?redirect_url=https%3A%2F%2Fmeet-up-4wzwzuhsz-krasimirhristovs-projects.vercel.app%2F',
+    },
     // {
     //     name: 'Comming Soon',
     //     description:

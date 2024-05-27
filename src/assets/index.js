@@ -40,6 +40,7 @@ import summaraizer from './summaraize.png';
 import pricewatchpro from './pricewatchpro.png';
 import underConstruction from './underConstruction.jpg';
 import elenisbekeryapp from './elenisbakeryapp.png';
+import meetmeup from './meetmeup.png';
 
 export {
   logo,
@@ -81,4 +82,5 @@ export {
   softwareEngineeringAndDevOpsJune2023,
   softwareUniversity,
   elenisbekeryapp,
+  meetmeup,
 };
