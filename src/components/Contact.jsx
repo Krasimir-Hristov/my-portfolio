@@ -1,6 +1,6 @@
-import { useState, useRef } from "react";
+// import { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -28,7 +28,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col">
             <span className="text-white font-medium mb-4">My Address</span>
-            <p className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium">Wndlingen am Neckar - Germany</p>
+            <p className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium">Wendlingen am Neckar - Germany</p>
           </div>
           <div className="flex flex-col">
             <span className="text-white font-medium mb-4">My Email</span>
